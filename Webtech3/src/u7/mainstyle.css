@@ -1,0 +1,223 @@
+@CHARSET "UTF-8";
+
+/* body description */
+body {
+	background-color: white;
+	font: x-large sans-serif;
+	color: #444444;
+	margin: 0;
+	overflow: auto;
+}
+
+header, nav, section, footer, aside {
+	margin: 0.2em;
+	background-color: #555555;
+	color: white;
+	background-color: #555555;
+}
+
+header {
+	text-align: center;
+	vertical-align: center;
+}
+
+section {
+	float: left;
+	width: 65%;
+}
+
+aside.ads {
+	width: 14%;
+	float: left;
+	/* margin-left:85%;*/
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	vertical-align: center;
+	text-align: center;
+}
+
+/* defining nav tags */
+nav {
+	float: left;
+	width: 14%;
+	background-color: white;
+}
+
+nav a {
+	display: block;
+	color: white;
+	background-color: #555555;
+	padding: 0.4em;
+	margin-bottom: 0.1em;
+	border-radius: 0.5em;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-bottom-width: 3px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 0.5em;
+}
+
+nav a.indent {
+	margin-left: 1em;
+	background-color: #666666;
+}
+
+nav a:hover {
+	background-color: #444444;
+	border-color: rgba(0, 0, 0, 0.5);
+}
+
+nav a:active {
+	background-color: #333333;
+	border-color: rgba(0, 0, 0, 0.9);
+}
+
+/* article styling*/
+article {
+	margin: 0.5em;
+	padding: 0.5em;
+	vertical-align: center;
+	background-color: white;
+	color: #444444;
+}
+
+article div.text {
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	-moz-column-count: 2; /* Firefox */
+	column-count: 2;
+}
+
+/* defining the h-tags */
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+/* defining text tags */
+p.extra {
+	background-color: white;
+	color: #222222;
+	border-radius: 0.5em;
+	margin: 0.1em;
+	padding: 0.2em;
+}
+
+a {
+	border-radius: 0.2em;
+}
+
+a.button {
+	display: block-inline;
+	color: white;
+	background-color: #555555;
+	padding: 0.4em;
+	margin-bottom: 0.1em;
+	border-radius: 0.5em;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-bottom-width: 3px;
+	text-decoration: none;
+	text-align: center;
+}
+
+a.button.fill {
+	display: block;
+}
+
+a.button.orange {
+	background-color: #ff8800;
+}
+
+a.button.orange:hover {
+	background-color: #ee7700;
+}
+
+a.button.orange:active {
+	background-color: #dd6600;
+}
+
+a.button.green {
+	background-color: #008800;
+}
+
+a.button.green:hover {
+	background-color: #007700;
+}
+
+a.button.green:active {
+	background-color: #006600;
+}
+
+a.button.blue {
+	background-color: #000088;
+}
+
+a.button.blue:hover {
+	background-color: #000077;
+}
+
+a.button.blue:active {
+	background-color: #000066;
+}
+
+a.button.red {
+	background-color: #880000;
+}
+
+a.button.red:hover {
+	background-color: #770000;
+}
+
+a.button.red:active {
+	background-color: #660000;
+}
+
+div.imgGallery {
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	-moz-column-count: 2; /* Firefox */
+	column-count: 2;
+}
+
+p.buttons {
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	-moz-column-count: 2; /* Firefox */
+	column-count: 2;
+	margin: 0.5em 0 0.5em 0;
+}
+
+img {
+	width: 100%;
+}
+
+div.video {
+	text-align: center;
+	background: #555555;
+	color: white;
+	margin: 0.5em;
+	padding: 0.5em;
+}
+
+video.trailer {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-bottom-width: 2px;
+	border-radius: 0.5em;
+	margin: 0.1em;
+	background: white;
+	width: 50%;
+	display: inline;
+}
+
+/* General Layout */
+.border1 {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-bottom-width: 2px;
+}
+
+.borderWhite {
+	border: medium solid white;
+}
+
+.roundCorners1 {
+	border-radius: 0.5em;
+}
