@@ -103,6 +103,9 @@ p.extra {
 	margin: 0.1em;
 	padding: 0.2em;
 }
+p.button{
+	clear:both;
+}
 
 a {
 	border-radius: 0.2em;
@@ -122,8 +125,8 @@ a.button {
 }
 
 a.button.fillHalf{
-	display: block;
-	width: 45%;
+	word-wrap: break-word;
+	width: 44%;
 	float: left;
 	margin-left: 2.5%;
 }
