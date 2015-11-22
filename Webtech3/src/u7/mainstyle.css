@@ -121,6 +121,13 @@ a.button {
 	text-align: center;
 }
 
+a.button.fillHalf{
+	display: block;
+	width: 45%;
+	float: left;
+	margin-left: 2.5%;
+}
+
 a.button.fill {
 	display: block;
 }
