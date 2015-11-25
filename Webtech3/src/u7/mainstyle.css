@@ -1,4 +1,4 @@
-@CHARSET "UTF-8";
+@charset "UTF-8";
 
 /* body description */
 body {
@@ -103,16 +103,17 @@ p.extra {
 	margin: 0.1em;
 	padding: 0.2em;
 }
-p.afterButtons{
-	clear:both;
+
+p.afterButtons {
+	clear: both;
 }
 
 a {
 	border-radius: 0.2em;
 }
 
-a.button {
-	display: block-inline;
+.button {
+	display: inline-block;
 	color: white;
 	background-color: #555555;
 	padding: 0.4em;
@@ -124,62 +125,72 @@ a.button {
 	text-align: center;
 }
 
-a.button.fillHalf{
+.button:hover {
+	background-color: #444444;
+	border-color: rgba(0, 0, 0, 0.5);
+}
+
+.button:active {
+	background-color: #333333;
+	border-color: rgba(0, 0, 0, 0.9);
+}
+
+.button.fillHalf {
 	word-wrap: break-word;
 	width: 44%;
 	float: left;
 	margin-left: 2.5%;
 }
 
-a.button.fill {
+.button.fill {
 	display: block;
 }
 
-a.button.orange {
+.button.orange {
 	background-color: #ff8800;
 }
 
-a.button.orange:hover {
+.button.orange:hover {
 	background-color: #ee7700;
 }
 
-a.button.orange:active {
+.button.orange:active {
 	background-color: #dd6600;
 }
 
-a.button.green {
+.button.green {
 	background-color: #008800;
 }
 
-a.button.green:hover {
+.button.green:hover {
 	background-color: #007700;
 }
 
-a.button.green:active {
+.button.green:active {
 	background-color: #006600;
 }
 
-a.button.blue {
+.button.blue {
 	background-color: #000088;
 }
 
-a.button.blue:hover {
+.button.blue:hover {
 	background-color: #000077;
 }
 
-a.button.blue:active {
+.button.blue:active {
 	background-color: #000066;
 }
 
-a.button.red {
+.button.red {
 	background-color: #880000;
 }
 
-a.button.red:hover {
+.button.red:hover {
 	background-color: #770000;
 }
 
-a.button.red:active {
+.button.red:active {
 	background-color: #660000;
 }
 
@@ -230,4 +241,43 @@ video.trailer {
 
 .roundCorners1 {
 	border-radius: 0.5em;
+}
+
+.form {
+	text-align: center;
+}
+
+input {
+	margin: 0.1em;
+	line-height: 2em;
+	font: x-large sans-serif;
+}
+
+
+
+input.button {
+	width: 40%;
+}
+
+
+
+.textInput {
+	display: inline-block;
+	color: white;
+	background-color: #555555;
+	padding: 0.4em;
+	margin-bottom: 0.1em;
+	border-radius: 0.5em;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-bottom-width: 3px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.textInput.orange {
+	background-color: #ff8800;
+}
+
+.textInput.orange:hover {
+	background-color: #ee7700;
 }
