@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT hausarbeit (zusammenfassung,abstract,einleitung,verwandteArbeiten,grundlagen,konzept,realisierung,implementierung,beispiel,anwendungsszenarien,ausblick,literaturverzeichnis)>
+<!ELEMENT zusammenfassung (#PCDATA)>
+<!ELEMENT abstract (#PCDATA)>
+<!ELEMENT einleitung (#PCDATA)>
+<!ELEMENT verwandteArbeiten (arbeit+)>
+<!ELEMENT arbeit (#PCDATA)>
+<!ELEMENT grundlagen (#PCDATA)>
+<!ELEMENT konzept (#PCDATA)>
+<!ELEMENT realisierung (#PCDATA)>
+<!ELEMENT implementierung (#PCDATA)>
+<!ELEMENT beispiel (#PCDATA)>
+<!ELEMENT anwendungsszenarien (#PCDATA)>
+<!ELEMENT ausblick (#PCDATA)>
+<!ELEMENT literaturverzeichnis (eintrag+)>
+<!ELEMENT eintrag  EMPTY>
+
+<!ATTLIST eintrag
+
+titel CDATA  #REQUIRED
+autor CDATA #REQUIRED
+seite CDATA #REQUIRED
+verlag CDATA  #REQUIRED
+jahr CDATA #REQUIRED
+>

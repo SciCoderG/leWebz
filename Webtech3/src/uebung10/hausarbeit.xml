@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hausarbeit SYSTEM "D:\workspace\Webtech\src\uebung10\Hausarbeit.dtd">
+<hausarbeit>
+<zusammenfassung>
+ Zusammenfassung der Hausarbeit</zusammenfassung>
+<abstract> abstract</abstract>
+<einleitung>Hier steht die Einleitung meiner Hausarbeit</einleitung>
+<verwandteArbeiten>
+<arbeit> Bsp. Arbeit </arbeit>
+<arbeit>another Arbeit</arbeit>
+<arbeit> example 3</arbeit>
+</verwandteArbeiten>
+<grundlagen>Grundlagen </grundlagen>
+<konzept> Das Konzept der Arbeit</konzept>
+<realisierung>blablaaaa</realisierung>
+<implementierung>Imlementierung </implementierung>
+<beispiel>ein Beispiel</beispiel>
+<anwendungsszenarien>mögliche Anwendungszenarien</anwendungsszenarien>
+<ausblick>Ein Ausblick</ausblick>
+<literaturverzeichnis>
+
+<eintrag
+ titel="titel der Quelle"
+ autor="Autor der Quelle"
+ verlag="Verlag der Quelle"
+ seite="135"
+ jahr="1998"
+/>
+
+<eintrag
+ titel="Another Quelle"
+ autor="Autor 2 Quelle"
+ verlag="Verlag 2"
+ seite="135"
+ jahr="2015"
+/>
+</literaturverzeichnis>
+</hausarbeit>
