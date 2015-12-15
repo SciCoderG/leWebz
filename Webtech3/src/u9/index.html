@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Gästebuch</title>
+    </head>
+    <body>
+        <header><h1>Gästebuch</h1></header>
+        <section>
+            <h3>Willkommen!</h3>
+            <p>Hier finden Sie <a href="alleEintraege.php">alle Gästebucheinträge</a>  
+                von Besuchern unserer Website. Sie können auch ihre <a href="neuerEintrag.php">bisherigen Einträge</a> einsehen.</p>
+            <p>Schicken Sie </p>
+            <form action="neuerEintrag.php" method="post">
+                Vor- und Nachname *:<br>
+                <input type="text" name="name" value="">
+                <br>
+                E-Mail:<br>
+                <input type="text" name="email" value="">
+                <br>
+                Ihr Eintrag:<br>
+                <textarea name="input" cols="40" rows="12"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+            
+        </section>
+    </body>
+</html>
