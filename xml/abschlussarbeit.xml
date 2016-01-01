@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abschlussarbeit SYSTEM "abschlussarbeit.dtd">
+<abschlussarbeit>
+	<zusammenfassung>Dies ist eine Zusammenfassung</zusammenfassung>
+	<abstract>Dies ist ein Abstract</abstract>
+	<einleitung>
+		<motivation>Motivation!</motivation>
+		<ziele>Ziele</ziele>
+	</einleitung>
+	<verwandtearbeiten>
+		<arbeit>Dies ist eine Arbeit</arbeit>
+		<arbeit>Und noch eine Arbeit</arbeit>
+		<arbeit>Und eine dritte Arbeit</arbeit>
+	</verwandtearbeiten>
+	<grundlagen>Grundlagen sind wichtig!</grundlagen>
+	<konzept>Ebenso wichtig ist es, ein Konzept zu haben!</konzept>
+	<realisierung>Die Arbeit wird real - </realisierung>
+	<implementierung>Indem sie implementiert wird!</implementierung>
+	<beispiel>Hierzu ein Beispiel</beispiel>
+	<anwendungsszenarien>Und ein paar Anwendungsszenarien</anwendungsszenarien>
+	<ausblick>Der Ausblick ist toll!</ausblick>
+	<literaturverzeichnis>
+		<eintrag titel="Jop" autor="tick" seite="www.tick.org" verlag="demBooks GmbH" jahr="4221"/>
+		<eintrag titel="Jop" autor="trick" seite="www.trick.org" verlag="demBooks GmbH" jahr="42"/>
+		<eintrag titel="Jo" autor="track" seite="www.track.org" verlag="demBooks GmbH" jahr="2142"/>
+	</literaturverzeichnis>
+</abschlussarbeit>

@@ -1,0 +1,29 @@
+<!ELEMENT abschlussarbeit (zusammenfassung, abstract, einleitung, verwandtearbeiten, grundlagen, konzept, realisierung, implementierung, beispiel, anwendungsszenarien, ausblick, literaturverzeichnis)>
+
+<!ELEMENT zusammenfassung (#PCDATA)>
+<!ELEMENT abstract (#PCDATA)>
+
+<!ELEMENT einleitung (motivation, ziele)>
+<!ELEMENT motivation (#PCDATA)>
+<!ELEMENT ziele (#PCDATA)>
+
+<!ELEMENT verwandtearbeiten (arbeit)+>
+<!ELEMENT arbeit (#PCDATA)>
+
+<!ELEMENT grundlagen (#PCDATA)>
+<!ELEMENT konzept (#PCDATA)>
+<!ELEMENT realisierung (#PCDATA)>
+<!ELEMENT implementierung (#PCDATA)>
+<!ELEMENT beispiel (#PCDATA)>
+<!ELEMENT anwendungsszenarien (#PCDATA)>
+<!ELEMENT ausblick (#PCDATA)>
+
+<!ELEMENT literaturverzeichnis (eintrag)+>
+<!ELEMENT eintrag EMPTY>
+<!ATTLIST eintrag
+	titel CDATA #IMPLIED
+	autor CDATA #IMPLIED
+	seite CDATA #IMPLIED
+	verlag CDATA #IMPLIED
+	jahr CDATA #IMPLIED
+>

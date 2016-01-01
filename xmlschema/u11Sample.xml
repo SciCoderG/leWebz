@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="u11Style.xslt" ?>
+<abschlussarbeit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="u11.xsd">
+	<zusammenfassung>Zusammenfassung</zusammenfassung>
+	<abstract>Abstract</abstract>
+	<einleitung>
+		<motivation>Motivation</motivation>
+		<ziele>Ziele</ziele>
+	</einleitung>
+	<arbeiten>
+		<arbeit>Arbeit 1</arbeit>
+		<arbeit>Arbeit 2</arbeit>
+		<arbeit>Arbeit 3</arbeit>
+	</arbeiten>
+	<grundlagen>Grundlagen</grundlagen>
+	<konzept>Konzept</konzept>
+	<realisierung>Realisierung</realisierung>
+	<implementierung>Implementierung</implementierung>
+	<beispiel>Beispiel</beispiel>
+	<szenarien>Szenarien</szenarien>
+	<ausblick>Ausblick</ausblick>
+	<literatur>
+		<eintrag titel="Titel 1" autor="Autor 1" seite="42" verlag="Verlag 1" jahr="2242"/>
+		<eintrag titel="Titel 2" autor="Autor 2" seite="420" verlag="Verlag 2" jahr="2142"/>
+		<eintrag titel="Titel 3" autor="Autor 3" seite="4200" verlag="Verlag 3" jahr="2042"/>
+	</literatur>
+</abschlussarbeit>

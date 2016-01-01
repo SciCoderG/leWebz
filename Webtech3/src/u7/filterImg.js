@@ -6,17 +6,11 @@ function filterImg()
 		
 		var alt;
 				
-		for(var i = 0; i < images.length; i)
-					
+		for(var i = 0; i < images.length; i)		
 		{		
 			alt = document.createElement("p");
-			
 			alt.innerHTML = images[i].alt;
-			
-			images[i].parentNode.replaceChild(alt, images[i]);
-			
-			
-			  	 
+			images[i].parentNode.replaceChild(alt, images[i]);	  	 
 		}
 	}
 			

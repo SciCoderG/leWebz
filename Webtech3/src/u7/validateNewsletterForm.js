@@ -5,9 +5,8 @@
 function validateForm() {
 	var form = document.forms["newsletter"];
 	var isCorrect = true;
-
+	var streetformat = /^([a-zA-Z]{2,}(\s|\-)?)+\s\d{1,}(\s[a-zA-Z]+)?\s*$/;
 	var nameformat = /^([a-zA-Z]{2,}){1}\s*$/;
-	v
 	var phoneformat = /^(\+\d{2}\s)?(\d+\s?)*(\d+)+\s*$/;
 	var plzformat = /^\d{5}\s*$/;
 	var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+\s*$/;

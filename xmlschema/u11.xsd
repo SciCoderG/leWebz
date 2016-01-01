@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="abschlussarbeit">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="zusammenfassung" type="xs:string"/>
+				<xs:element name="abstract" type="xs:string"/>
+				<xs:element name="einleitung" type="einleitungType"/>
+				<xs:element name="arbeiten" type="arbeitenType"/>
+				<xs:element name="grundlagen" type="xs:string"/>
+				<xs:element name="konzept" type="xs:string"/>
+				<xs:element name="realisierung" type="xs:string"/>
+				<xs:element name="implementierung" type="xs:string"/>
+				<xs:element name="beispiel" type="xs:string"/>
+				<xs:element name="szenarien" type="xs:string"/>
+				<xs:element name="ausblick" type="xs:string"/>
+				<xs:element name="literatur" type="literaturType"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="einleitungType">
+		<xs:sequence>
+			<xs:element name="motivation" type="xs:string"/>
+			<xs:element name="ziele" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="arbeitenType">
+		<xs:sequence>
+			<xs:element name="arbeit" type="xs:string" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="literaturType">
+		<xs:sequence>
+			<xs:element name="eintrag" type="eintragType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="eintragType">
+		<xs:attribute name="titel" type="xs:string" use="required"/>
+		<xs:attribute name="autor" type="xs:string" use="required"/>
+		<xs:attribute name="seite" type="xs:int" use="required"/>
+		<xs:attribute name="verlag" type="xs:string" use="required"/>
+		<xs:attribute name="jahr" type="xs:int" use="required"/>
+	</xs:complexType>
+</xs:schema>
